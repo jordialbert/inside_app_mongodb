@@ -91,7 +91,7 @@ export const TaskManager: React.FC<{
         )}
       </View>
       <View style={styles.switchPanel}>
-        <Text style={styles.switchPanelText}>Show Completed?</Text>
+        <Text style={styles.switchPanelText}>Show Completed lerele?</Text>
         <Switch value={showDone} onValueChange={() => setShowDone(!showDone)} />
       </View>
     </>

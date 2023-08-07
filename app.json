@@ -3,11 +3,18 @@
     "name": "inside_app_mongodb",
     "slug": "inside_app_mongodb",
     "version": "1.0.0",
+    "scheme": "inside_app_mongodb",
     "assetBundlePatterns": [
       "**/*"
     ],
     "ios": {
       "bundleIdentifier": "1.insideappmongodb"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "tsconfigPaths": true
     }
   }
 }
