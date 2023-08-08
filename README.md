@@ -8,7 +8,7 @@
 
 Simple Expo template to quickly get started with Realm.
 
-## 🚀 How to use
+## 🚀 How to use this repository
 
 If you haven't already, install the `expo-cli`:
 ```
@@ -18,11 +18,33 @@ npm install --global expo-cli
 yarn global add expo-cli
 ```
 
-Then use the following command to generate your template:
+### Clone repository
 
 ```
-expo init MyAwesomeRealmApp --template @realm/expo-template
+git clone https://github.com/jordialbert/inside_app_mongodb.git
 ```
+
+### Install dependencies
+Move to the directory
+```
+cd inside_app_mongodb
+```
+
+And install dependencies
+```
+npm install
+```
+or
+```
+yarn install
+```
+
+### Install ios dependencies
+Run
+```
+cd ios && pod install && cd ..
+```
+
 ## 🏃 How to build and run locally
 
 - [Setup development Environment](https://reactnative.dev/docs/environment-setup)
@@ -51,10 +73,6 @@ yarn start
 ```
 npm run start
 ```
-
-## 🔀 Setting up sync
-
-See https://github.com/realm/realm-js/blob/master/templates/docs/sync-setup.md for instructions.
 
 ## ☁️ Build in the cloud
 
