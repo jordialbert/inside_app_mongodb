@@ -26,7 +26,8 @@ module.exports = function (api) {
         "@babel/plugin-proposal-decorators",
         { legacy: true }
       ],
-      "expo-router/babel"
+      "expo-router/babel",
+      "react-native-reanimated/plugin",
     ],
   };
 };
